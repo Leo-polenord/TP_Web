@@ -1,0 +1,143 @@
+/*
+    Nom : style.css
+    Date de creation : 06/10/2026
+    Auteur : Jay Léo-Paul
+    Description : Regles CSS definissant l'affichage du fichier basesCSS.html
+                  (TP2 - Exercices sur les bases de CSS).
+*/
+
+* {
+  box-sizing: border-box;
+  background-color: lightcyan;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+
+header {
+  margin: 10px;
+  padding: 10px;
+  background-color: #626464;
+  color: white;
+  font-size: 2em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+footer {
+  margin: 5px;
+  padding: 10px;
+  background-color: #626464;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  background-color: transparent;
+}
+
+section {
+  margin: 10px;
+}
+
+article {
+  margin: 10px;
+  padding: 10px;
+  border: 2px dotted #626464;
+}
+
+p {
+  margin: 10px;
+}
+
+h1 {
+  color: red;
+  font-size: 2em;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+  background-color: red;
+  border-left: 50px solid black;
+  text-transform: capitalize;
+}
+
+#info {
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+.documentation {
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+
+.documentation > a {
+  padding: 5px;
+  background-color: darkgreen;
+  color: greenyellow;
+  text-decoration: none;
+}
+
+.documentation > a:hover {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f4f4f4;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  color: #666666;
+  overflow-x: auto;
+}
+
+pre {
+  margin: 10px;
+  padding: 10px;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+tr {
+  height: 2em;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+th {
+  height: 3em;
+  background-color: darkblue;
+  color: white;
+}
+
+table tr:nth-child(even) td {
+  background-color: lightblue;
+}
+
+tr:last-child {
+  color: darkblue;
+}
